@@ -2,78 +2,76 @@ package beans;
 
 //Atributos de la clase libros
 public class Libro {
- private int id;
- private String titulo;
- private String genero;
- private String autor;
- private int copias;
- private boolean novedad;
- 
- //Constructor con atributos
-public Libro(int id, String titulo, String genero, String autor, int copias, boolean novedad) {
-	super();
-	this.id = id;
-	this.titulo = titulo;
-	this.genero = genero;
-	this.autor = autor;
-	this.copias = copias;
-	this.novedad = novedad;
-}
+	private int id;
+	private String titulo;
+	private String genero;
+	private String autor;
+	private int copias;
+	private boolean novedad;
 
-public int getId() {
-	return id;
-}
+	// Constructor con atributos
+	public Libro(int id, String titulo, String genero, String autor, int copias, boolean novedad) {
+		super();
+		this.id = id;
+		this.titulo = titulo;
+		this.genero = genero;
+		this.autor = autor;
+		this.copias = copias;
+		this.novedad = novedad;
+	}
 
-public void setId(int id) {
-	this.id = id;
-}
+	public int getId() {
+		return id;
+	}
 
-public String getTitulo() {
-	return titulo;
-}
+	public void setId(int id) {
+		this.id = id;
+	}
 
-public void setTitulo(String titulo) {
-	this.titulo = titulo;
-}
+	public String getTitulo() {
+		return titulo;
+	}
 
-public String getGenero() {
-	return genero;
-}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
 
-public void setGenero(String genero) {
-	this.genero = genero;
-}
+	public String getGenero() {
+		return genero;
+	}
 
-public String getAutor() {
-	return autor;
-}
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
 
-public void setAutor(String autor) {
-	this.autor = autor;
-}
+	public String getAutor() {
+		return autor;
+	}
 
-public int getCopias() {
-	return copias;
-}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
 
-public void setCopias(int copias) {
-	this.copias = copias;
-}
+	public int getCopias() {
+		return copias;
+	}
 
-public boolean isNovedad() {
-	return novedad;
-}
+	public void setCopias(int copias) {
+		this.copias = copias;
+	}
 
-public void setNovedad(boolean novedad) {
-	this.novedad = novedad;
-}
+	public boolean isNovedad() {
+		return novedad;
+	}
 
-@Override
-public String toString() {
-	return "Libro [id=" + id + ", titulo=" + titulo + ", genero=" + genero + ", autor=" + autor + ", copias=" + copias
-			+ ", novedad=" + novedad + "]";
-}
- 
- 
- 
+	public void setNovedad(boolean novedad) {
+		this.novedad = novedad;
+	}
+
+	@Override
+	public String toString() {
+		return "Libro [id=" + id + ", titulo=" + titulo + ", genero=" + genero + ", autor=" + autor + ", copias="
+				+ copias + ", novedad=" + novedad + "]";
+	}
+
 }
